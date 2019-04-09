@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF4604C225C256C005CED7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4604B225C256C005CED7C /* AppDelegate.swift */; };
+		CFF4604E225C256C005CED7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4604D225C256C005CED7C /* ViewController.swift */; };
+		CFF46051225C256C005CED7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4604F225C256C005CED7C /* Main.storyboard */; };
+		CFF46053225C256E005CED7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF46052225C256E005CED7C /* Assets.xcassets */; };
+		CFF46056225C256E005CED7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF46054225C256E005CED7C /* LaunchScreen.storyboard */; };
+		CFF46061225C256E005CED7C /* Kelly_PocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF46060225C256E005CED7C /* Kelly_PocketTests.swift */; };
+		CFF4606C225C256E005CED7C /* Kelly_PocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4606B225C256E005CED7C /* Kelly_PocketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF4605D225C256E005CED7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF46040225C256C005CED7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF46047225C256C005CED7C;
+			remoteInfo = "Kelly Pocket";
+		};
+		CFF46068225C256E005CED7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF46040225C256C005CED7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF46047225C256C005CED7C;
+			remoteInfo = "Kelly Pocket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFF46048225C256C005CED7C /* Kelly Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kelly Pocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF4604B225C256C005CED7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF4604D225C256C005CED7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFF46050225C256C005CED7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF46052225C256E005CED7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF46055225C256E005CED7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF46057225C256E005CED7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF4605C225C256E005CED7C /* Kelly PocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kelly PocketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF46060225C256E005CED7C /* Kelly_PocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelly_PocketTests.swift; sourceTree = "<group>"; };
+		CFF46062225C256E005CED7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF46067225C256E005CED7C /* Kelly PocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kelly PocketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF4606B225C256E005CED7C /* Kelly_PocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelly_PocketUITests.swift; sourceTree = "<group>"; };
+		CFF4606D225C256E005CED7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF46045225C256C005CED7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF46059225C256E005CED7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF46064225C256E005CED7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF4603F225C256C005CED7C = {
+			isa = PBXGroup;
+			children = (
+				CFF4604A225C256C005CED7C /* Kelly Pocket */,
+				CFF4605F225C256E005CED7C /* Kelly PocketTests */,
+				CFF4606A225C256E005CED7C /* Kelly PocketUITests */,
+				CFF46049225C256C005CED7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF46049225C256C005CED7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF46048225C256C005CED7C /* Kelly Pocket.app */,
+				CFF4605C225C256E005CED7C /* Kelly PocketTests.xctest */,
+				CFF46067225C256E005CED7C /* Kelly PocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF4604A225C256C005CED7C /* Kelly Pocket */ = {
+			isa = PBXGroup;
+			children = (
+				CFF4604B225C256C005CED7C /* AppDelegate.swift */,
+				CFF4604D225C256C005CED7C /* ViewController.swift */,
+				CFF4604F225C256C005CED7C /* Main.storyboard */,
+				CFF46052225C256E005CED7C /* Assets.xcassets */,
+				CFF46054225C256E005CED7C /* LaunchScreen.storyboard */,
+				CFF46057225C256E005CED7C /* Info.plist */,
+			);
+			path = "Kelly Pocket";
+			sourceTree = "<group>";
+		};
+		CFF4605F225C256E005CED7C /* Kelly PocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF46060225C256E005CED7C /* Kelly_PocketTests.swift */,
+				CFF46062225C256E005CED7C /* Info.plist */,
+			);
+			path = "Kelly PocketTests";
+			sourceTree = "<group>";
+		};
+		CFF4606A225C256E005CED7C /* Kelly PocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF4606B225C256E005CED7C /* Kelly_PocketUITests.swift */,
+				CFF4606D225C256E005CED7C /* Info.plist */,
+			);
+			path = "Kelly PocketUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF46047225C256C005CED7C /* Kelly Pocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF46070225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly Pocket" */;
+			buildPhases = (
+				CFF46044225C256C005CED7C /* Sources */,
+				CFF46045225C256C005CED7C /* Frameworks */,
+				CFF46046225C256C005CED7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kelly Pocket";
+			productName = "Kelly Pocket";
+			productReference = CFF46048225C256C005CED7C /* Kelly Pocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF4605B225C256E005CED7C /* Kelly PocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF46073225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketTests" */;
+			buildPhases = (
+				CFF46058225C256E005CED7C /* Sources */,
+				CFF46059225C256E005CED7C /* Frameworks */,
+				CFF4605A225C256E005CED7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF4605E225C256E005CED7C /* PBXTargetDependency */,
+			);
+			name = "Kelly PocketTests";
+			productName = "Kelly PocketTests";
+			productReference = CFF4605C225C256E005CED7C /* Kelly PocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF46066225C256E005CED7C /* Kelly PocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF46076225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketUITests" */;
+			buildPhases = (
+				CFF46063225C256E005CED7C /* Sources */,
+				CFF46064225C256E005CED7C /* Frameworks */,
+				CFF46065225C256E005CED7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF46069225C256E005CED7C /* PBXTargetDependency */,
+			);
+			name = "Kelly PocketUITests";
+			productName = "Kelly PocketUITests";
+			productReference = CFF46067225C256E005CED7C /* Kelly PocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF46040225C256C005CED7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ed Basurto";
+				TargetAttributes = {
+					CFF46047225C256C005CED7C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CFF4605B225C256E005CED7C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFF46047225C256C005CED7C;
+					};
+					CFF46066225C256E005CED7C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFF46047225C256C005CED7C;
+					};
+				};
+			};
+			buildConfigurationList = CFF46043225C256C005CED7C /* Build configuration list for PBXProject "Kelly Pocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF4603F225C256C005CED7C;
+			productRefGroup = CFF46049225C256C005CED7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF46047225C256C005CED7C /* Kelly Pocket */,
+				CFF4605B225C256E005CED7C /* Kelly PocketTests */,
+				CFF46066225C256E005CED7C /* Kelly PocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF46046225C256C005CED7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF46056225C256E005CED7C /* LaunchScreen.storyboard in Resources */,
+				CFF46053225C256E005CED7C /* Assets.xcassets in Resources */,
+				CFF46051225C256C005CED7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF4605A225C256E005CED7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF46065225C256E005CED7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF46044225C256C005CED7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF4604E225C256C005CED7C /* ViewController.swift in Sources */,
+				CFF4604C225C256C005CED7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF46058225C256E005CED7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF46061225C256E005CED7C /* Kelly_PocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF46063225C256E005CED7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF4606C225C256E005CED7C /* Kelly_PocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF4605E225C256E005CED7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF46047225C256C005CED7C /* Kelly Pocket */;
+			targetProxy = CFF4605D225C256E005CED7C /* PBXContainerItemProxy */;
+		};
+		CFF46069225C256E005CED7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF46047225C256C005CED7C /* Kelly Pocket */;
+			targetProxy = CFF46068225C256E005CED7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF4604F225C256C005CED7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF46050225C256C005CED7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF46054225C256E005CED7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF46055225C256E005CED7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF4606E225C256E005CED7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF4606F225C256E005CED7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF46071225C256E005CED7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly Pocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-Pocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF46072225C256E005CED7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly Pocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-Pocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF46074225C256E005CED7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly PocketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelly Pocket.app/Kelly Pocket";
+			};
+			name = Debug;
+		};
+		CFF46075225C256E005CED7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly PocketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelly Pocket.app/Kelly Pocket";
+			};
+			name = Release;
+		};
+		CFF46077225C256E005CED7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly PocketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kelly Pocket";
+			};
+			name = Debug;
+		};
+		CFF46078225C256E005CED7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8BETY9XGK;
+				INFOPLIST_FILE = "Kelly PocketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kelly Pocket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF46043225C256C005CED7C /* Build configuration list for PBXProject "Kelly Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF4606E225C256E005CED7C /* Debug */,
+				CFF4606F225C256E005CED7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF46070225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF46071225C256E005CED7C /* Debug */,
+				CFF46072225C256E005CED7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF46073225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF46074225C256E005CED7C /* Debug */,
+				CFF46075225C256E005CED7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF46076225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF46077225C256E005CED7C /* Debug */,
+				CFF46078225C256E005CED7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF46040225C256C005CED7C /* Project object */;
+}
