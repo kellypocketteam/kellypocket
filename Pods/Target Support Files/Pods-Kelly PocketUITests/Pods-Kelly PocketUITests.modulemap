@@ -1,0 +1,6 @@
+framework module Pods_Kelly_PocketUITests {
+  umbrella header "Pods-Kelly PocketUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
