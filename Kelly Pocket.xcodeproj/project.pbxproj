@@ -107,7 +107,6 @@
 				1363299DFEADCD127F93ECA0 /* Pods-Kelly PocketUITests.debug.xcconfig */,
 				1DCAA0A37FF641C79026A52D /* Pods-Kelly PocketUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,13 +257,16 @@
 				TargetAttributes = {
 					CFF46047225C256C005CED7C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 					CFF4605B225C256E005CED7C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = CFF46047225C256C005CED7C;
 					};
 					CFF46066225C256E005CED7C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = CFF46047225C256C005CED7C;
 					};
 				};
@@ -597,16 +599,19 @@
 			baseConfigurationReference = 0EF3BDB1BC928454CFF1E83E /* Pods-Kelly Pocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8BETY9XGK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Kelly Pocket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-Pocket";
+				PRODUCT_BUNDLE_IDENTIFIER = "khctung.Kelly-Pocket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -616,16 +621,18 @@
 			baseConfigurationReference = 980AD075FAE76DF1158B063F /* Pods-Kelly Pocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8BETY9XGK;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Kelly Pocket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-Pocket";
+				PRODUCT_BUNDLE_IDENTIFIER = "khctung.Kelly-Pocket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -646,7 +653,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelly Pocket.app/Kelly Pocket";
 			};
@@ -668,7 +675,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelly Pocket.app/Kelly Pocket";
 			};
@@ -689,7 +696,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Kelly Pocket";
 			};
@@ -710,7 +717,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ookami-tech.Kelly-PocketUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Kelly Pocket";
 			};

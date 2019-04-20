@@ -48,14 +48,14 @@ extension SignUp {
     //Function that checks if password entered was then confirmed or isn't blank
     func checkPassword(usernameIn: String!) {
         self.userName = usernameIn
-        print(self.userName)
+        print(userName ?? "No username")
         let userPass = self.password.text!
         let userPassCon = self.confirmPassword.text!
         if (userPass != userPassCon) {
             self.passwordLabel.text = "Passwords do not match!"
         } else if (userPass == "" || userPassCon == "") {
             self.passwordLabel.text = "Please enter a password"
-        } else if(userPass.characters.count < 6 || userPass.characters.count > 18) {
+        } else if(userPass.count < 6 || userPass.count > 18) {
             self.passwordLabel.text = "Password must be between 6 and 18 characters"
         } else {
             userpassword = self.password.text!
@@ -210,14 +210,14 @@ extension Review {
     
     func createUser () {
         authRef().createUser(withEmail: email.text!, password: passwordR!) { (user, error) in
-            let userid = user?.uid
+            let userid = user?.user.uid
             if(error == nil) {
                 let values = ["Email": self.email.text!, "Username": self.username.text!, "First Name": self.firstName.text!, "Last Name": self.lastName.text!, "dOB": self.dOB.text!, "Zipcode": self.zipcode.text!]
                 self.saveUserInfo(values: values, uid: userid!)
                 let vc = self.storyboard!.instantiateViewController(withIdentifier: "Log In")
                 self.present(vc, animated: true, completion: nil)
             } else if (error != nil) {
-                let ac = UIAlertController(title: "Error", message: error!.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+                let ac = UIAlertController(title: "Error", message: error!.localizedDescription, preferredStyle: UIAlertController.Style.alert)
                 let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
                 ac.addAction(cancel)
                 self.present(ac, animated: true, completion: nil)
@@ -228,7 +228,7 @@ extension Review {
     func saveUserInfo (values: [String: String], uid: String) {
         ref().child("Users").child(uid).setValue(values) { (error, ref) in
             if(error != nil) {
-                let ac = UIAlertController(title: "Error", message: error!.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+                let ac = UIAlertController(title: "Error", message: error!.localizedDescription, preferredStyle: UIAlertController.Style.alert)
                 let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
                 ac.addAction(cancel)
                 self.present(ac, animated: true, completion: nil)
