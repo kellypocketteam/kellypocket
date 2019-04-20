@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89CE0D6DE1CA9ECD25839A89 /* Pods_Kelly_PocketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1794238C65F4BFEFDFD7F0 /* Pods_Kelly_PocketUITests.framework */; };
+		CFA79D882264810C0080EBD8 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA79D872264810C0080EBD8 /* SignUp.swift */; };
+		CFA79D8A2264812F0080EBD8 /* EnableLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA79D892264812E0080EBD8 /* EnableLocationController.swift */; };
+		CFA79D8E226481910080EBD8 /* SignUpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA79D8D226481910080EBD8 /* SignUpExtension.swift */; };
+		CFA79D90226484F60080EBD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA79D8F226484F60080EBD8 /* GoogleService-Info.plist */; };
 		CFF4604C225C256C005CED7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4604B225C256C005CED7C /* AppDelegate.swift */; };
 		CFF4604E225C256C005CED7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4604D225C256C005CED7C /* ViewController.swift */; };
 		CFF46051225C256C005CED7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF4604F225C256C005CED7C /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		CFF46056225C256E005CED7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF46054225C256E005CED7C /* LaunchScreen.storyboard */; };
 		CFF46061225C256E005CED7C /* Kelly_PocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF46060225C256E005CED7C /* Kelly_PocketTests.swift */; };
 		CFF4606C225C256E005CED7C /* Kelly_PocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF4606B225C256E005CED7C /* Kelly_PocketUITests.swift */; };
+		D62377F6610DD7428858C5AC /* Pods_Kelly_Pocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8A89A0ABEEC1B533A211D4 /* Pods_Kelly_Pocket.framework */; };
+		DD1DA3CCA5972E47FB86AD57 /* Pods_Kelly_PocketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D1ED346B9CBBE41F96BBE7 /* Pods_Kelly_PocketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D1ED346B9CBBE41F96BBE7 /* Pods_Kelly_PocketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelly_PocketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF3BDB1BC928454CFF1E83E /* Pods-Kelly Pocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly Pocket.debug.xcconfig"; path = "Target Support Files/Pods-Kelly Pocket/Pods-Kelly Pocket.debug.xcconfig"; sourceTree = "<group>"; };
+		1363299DFEADCD127F93ECA0 /* Pods-Kelly PocketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly PocketUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kelly PocketUITests/Pods-Kelly PocketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DCAA0A37FF641C79026A52D /* Pods-Kelly PocketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly PocketUITests.release.xcconfig"; path = "Target Support Files/Pods-Kelly PocketUITests/Pods-Kelly PocketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A8A89A0ABEEC1B533A211D4 /* Pods_Kelly_Pocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelly_Pocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A03429E5DCA29E87021C910 /* Pods-Kelly PocketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly PocketTests.debug.xcconfig"; path = "Target Support Files/Pods-Kelly PocketTests/Pods-Kelly PocketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		980AD075FAE76DF1158B063F /* Pods-Kelly Pocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly Pocket.release.xcconfig"; path = "Target Support Files/Pods-Kelly Pocket/Pods-Kelly Pocket.release.xcconfig"; sourceTree = "<group>"; };
+		A92A5547447946DF643BDE03 /* Pods-Kelly PocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kelly PocketTests.release.xcconfig"; path = "Target Support Files/Pods-Kelly PocketTests/Pods-Kelly PocketTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB1794238C65F4BFEFDFD7F0 /* Pods_Kelly_PocketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kelly_PocketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA79D872264810C0080EBD8 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CFA79D892264812E0080EBD8 /* EnableLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableLocationController.swift; sourceTree = "<group>"; };
+		CFA79D8D226481910080EBD8 /* SignUpExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpExtension.swift; sourceTree = "<group>"; };
+		CFA79D8F226484F60080EBD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFF46048225C256C005CED7C /* Kelly Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kelly Pocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF4604B225C256C005CED7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFF4604D225C256C005CED7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62377F6610DD7428858C5AC /* Pods_Kelly_Pocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1DA3CCA5972E47FB86AD57 /* Pods_Kelly_PocketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CE0D6DE1CA9ECD25839A89 /* Pods_Kelly_PocketUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1409504A1FD62607B7D42221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF3BDB1BC928454CFF1E83E /* Pods-Kelly Pocket.debug.xcconfig */,
+				980AD075FAE76DF1158B063F /* Pods-Kelly Pocket.release.xcconfig */,
+				8A03429E5DCA29E87021C910 /* Pods-Kelly PocketTests.debug.xcconfig */,
+				A92A5547447946DF643BDE03 /* Pods-Kelly PocketTests.release.xcconfig */,
+				1363299DFEADCD127F93ECA0 /* Pods-Kelly PocketUITests.debug.xcconfig */,
+				1DCAA0A37FF641C79026A52D /* Pods-Kelly PocketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F0FED48AAF7E4993DD1D11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A89A0ABEEC1B533A211D4 /* Pods_Kelly_Pocket.framework */,
+				02D1ED346B9CBBE41F96BBE7 /* Pods_Kelly_PocketTests.framework */,
+				BB1794238C65F4BFEFDFD7F0 /* Pods_Kelly_PocketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA79D8C2264816A0080EBD8 /* SignUpProcess */ = {
+			isa = PBXGroup;
+			children = (
+				CFA79D872264810C0080EBD8 /* SignUp.swift */,
+				CFA79D892264812E0080EBD8 /* EnableLocationController.swift */,
+				CFA79D8D226481910080EBD8 /* SignUpExtension.swift */,
+			);
+			path = SignUpProcess;
+			sourceTree = "<group>";
+		};
 		CFF4603F225C256C005CED7C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				CFF4605F225C256E005CED7C /* Kelly PocketTests */,
 				CFF4606A225C256E005CED7C /* Kelly PocketUITests */,
 				CFF46049225C256C005CED7C /* Products */,
+				1409504A1FD62607B7D42221 /* Pods */,
+				3F0FED48AAF7E4993DD1D11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +156,11 @@
 		CFF4604A225C256C005CED7C /* Kelly Pocket */ = {
 			isa = PBXGroup;
 			children = (
+				CFA79D8C2264816A0080EBD8 /* SignUpProcess */,
 				CFF4604B225C256C005CED7C /* AppDelegate.swift */,
 				CFF4604D225C256C005CED7C /* ViewController.swift */,
 				CFF4604F225C256C005CED7C /* Main.storyboard */,
+				CFA79D8F226484F60080EBD8 /* GoogleService-Info.plist */,
 				CFF46052225C256E005CED7C /* Assets.xcassets */,
 				CFF46054225C256E005CED7C /* LaunchScreen.storyboard */,
 				CFF46057225C256E005CED7C /* Info.plist */,
@@ -132,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF46070225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly Pocket" */;
 			buildPhases = (
+				84B7AC8FE79EB1A84D598E64 /* [CP] Check Pods Manifest.lock */,
 				CFF46044225C256C005CED7C /* Sources */,
 				CFF46045225C256C005CED7C /* Frameworks */,
 				CFF46046225C256C005CED7C /* Resources */,
+				EB6954E982D67B597BB004E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF46073225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketTests" */;
 			buildPhases = (
+				5F365F6553BD9438391CB9B7 /* [CP] Check Pods Manifest.lock */,
 				CFF46058225C256E005CED7C /* Sources */,
 				CFF46059225C256E005CED7C /* Frameworks */,
 				CFF4605A225C256E005CED7C /* Resources */,
@@ -167,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF46076225C256E005CED7C /* Build configuration list for PBXNativeTarget "Kelly PocketUITests" */;
 			buildPhases = (
+				BE70BE320C3606071CE829FF /* [CP] Check Pods Manifest.lock */,
 				CFF46063225C256E005CED7C /* Sources */,
 				CFF46064225C256E005CED7C /* Frameworks */,
 				CFF46065225C256E005CED7C /* Resources */,
@@ -230,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF46056225C256E005CED7C /* LaunchScreen.storyboard in Resources */,
+				CFA79D90226484F60080EBD8 /* GoogleService-Info.plist in Resources */,
 				CFF46053225C256E005CED7C /* Assets.xcassets in Resources */,
 				CFF46051225C256C005CED7C /* Main.storyboard in Resources */,
 			);
@@ -251,12 +317,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F365F6553BD9438391CB9B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kelly PocketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B7AC8FE79EB1A84D598E64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kelly Pocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE70BE320C3606071CE829FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kelly PocketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6954E982D67B597BB004E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kelly Pocket/Pods-Kelly Pocket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kelly Pocket/Pods-Kelly Pocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFF46044225C256C005CED7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CFF4604E225C256C005CED7C /* ViewController.swift in Sources */,
+				CFA79D8A2264812F0080EBD8 /* EnableLocationController.swift in Sources */,
+				CFA79D882264810C0080EBD8 /* SignUp.swift in Sources */,
+				CFA79D8E226481910080EBD8 /* SignUpExtension.swift in Sources */,
 				CFF4604C225C256C005CED7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +594,7 @@
 		};
 		CFF46071225C256E005CED7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF3BDB1BC928454CFF1E83E /* Pods-Kelly Pocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +613,7 @@
 		};
 		CFF46072225C256E005CED7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980AD075FAE76DF1158B063F /* Pods-Kelly Pocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +632,7 @@
 		};
 		CFF46074225C256E005CED7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A03429E5DCA29E87021C910 /* Pods-Kelly PocketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +654,7 @@
 		};
 		CFF46075225C256E005CED7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92A5547447946DF643BDE03 /* Pods-Kelly PocketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +676,7 @@
 		};
 		CFF46077225C256E005CED7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1363299DFEADCD127F93ECA0 /* Pods-Kelly PocketUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +697,7 @@
 		};
 		CFF46078225C256E005CED7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCAA0A37FF641C79026A52D /* Pods-Kelly PocketUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
